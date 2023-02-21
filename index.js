@@ -18,6 +18,16 @@
 
 //  Question 5
 
+let num = 32;
+let x = 4;
+let pwr = x ** 2;
+
+if (pwr < num){
+  console.log('The number '+ pwr + ' is the power of 2 nearest to ' + num)
+}else {
+  console.log('Wrong Answer');
+};
+
 
 
 
